@@ -50,7 +50,14 @@
         tap-ms = <100>;
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        esc-jk {
+            bindings = <&kp ESCAPE>;
+            key-positions = <23 24>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
