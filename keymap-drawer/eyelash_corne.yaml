@@ -113,8 +113,8 @@ layers:
   - )
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - REDO
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+Sft+Z
+  - Gui+Sft+S
   - _
   - {t: '=', s: +}
   - PgDn
@@ -128,15 +128,15 @@ layers:
   - '|'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
-  - $$mdi:mouse-right-click-outline$$
+  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: X, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  - Gui+Alt+V
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - Ctl+$$mdi:arrow-left-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+$$mdi:arrow-down-bold$$
   - Ctl+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: \, s: '|'}
@@ -144,8 +144,8 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$', type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - '&studio_unlock'
