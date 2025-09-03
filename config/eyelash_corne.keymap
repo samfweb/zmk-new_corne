@@ -89,10 +89,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans         &trans         &trans         &kp MINUS       &kp PLUS   &kp PAGE_UP                              &mmv MOVE_UP                     &kp HOME              &kp UP_ARROW        &kp END        &kp LPAR  &kp RPAR       &trans
-&kp BACKSPACE  &kp LG(LS(Z))  &kp LG(LS(S))  &kp UNDERSCORE  &kp EQUAL  &kp PAGE_DOWN            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT              &kp DOWN            &kp RIGHT      &trans    &kp PIPE       &trans
-&trans         &kp LG(Z)      &kp LG(X)      &kp LG(C)       &kp LG(V)  &kp LG(LA(V))  &trans                    &mmv MOVE_DOWN                   &kp LC(LEFT)          &kp LS(DOWN_ARROW)  &kp LC(RIGHT)  &trans    &kp BACKSLASH  &trans
-                                             &trans          &trans     &trans                                                                    &mt LEFT_SHIFT SPACE  &trans              &trans
+&trans         &trans         &trans         &kp MINUS       &kp PLUS   &kp LCTRL                                 &mmv MOVE_UP                     &kp HOME      &kp UP_ARROW        &kp END        &kp LPAR  &kp RPAR       &trans
+&kp BACKSPACE  &kp LG(LS(Z))  &kp LG(LS(S))  &kp UNDERSCORE  &kp EQUAL  &kp LEFT_SHIFT            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT      &kp DOWN            &kp RIGHT      &trans    &kp PIPE       &trans
+&trans         &kp LG(Z)      &kp LG(X)      &kp LG(C)       &kp LG(V)  &kp LG(LA(V))   &trans                    &mmv MOVE_DOWN                   &kp LC(LEFT)  &kp LS(DOWN_ARROW)  &kp LC(RIGHT)  &trans    &kp BACKSLASH  &trans
+                                             &trans          &trans     &trans                                                                     &kp SPACE     &trans              &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
