@@ -80,7 +80,7 @@
 &bt BT_CLR  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH       &kp DOLLAR            &kp PERCENT                                   &mmv MOVE_UP                     &kp CARET        &kp AMPERSAND          &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL
 &bt BT_PRV  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4          &kp NUMBER_5                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp NUMBER_6     &kp N7                 &kp N8            &kp N9                &kp N0                 &kp PG_UP
 &bt BT_NXT  &kp TILDE        &kp GRAVE     &kp LESS_THAN  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp COLON             &kp SEMICOLON          &kp PG_DN
-                                           &trans         &kp ENTER             &trans                                                                         &kp BACKSPACE    &kp SPACE              &trans
+                                           &trans         &trans                &kp ENTER                                                                      &trans           &trans                 &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -89,10 +89,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans         &trans         &trans         &kp MINUS       &kp PLUS   &kp PAGE_UP                                     &mmv MOVE_UP                     &kp HOME      &kp UP_ARROW        &kp END        &kp LPAR  &kp RPAR       &trans
-&kp BACKSPACE  &kp LG(LS(Z))  &kp LG(LS(S))  &kp UNDERSCORE  &kp EQUAL  &kp PAGE_DOWN                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT      &kp DOWN            &kp RIGHT      &trans    &kp PIPE       &trans
-&trans         &kp LG(Z)      &kp LG(X)      &kp LG(C)       &kp LG(V)  &kp LG(LA(V))         &trans                    &mmv MOVE_DOWN                   &kp LC(LEFT)  &kp LS(DOWN_ARROW)  &kp LC(RIGHT)  &trans    &kp BACKSLASH  &trans
-                                             &kp BACKSPACE   &kp ENTER  &mt LEFT_SHIFT SPACE                                                             &kp SPACE     &kp ENTER           &trans
+&trans         &trans         &trans         &kp MINUS       &kp PLUS   &kp PAGE_UP                              &mmv MOVE_UP                     &kp HOME              &kp UP_ARROW        &kp END        &kp LPAR  &kp RPAR       &trans
+&kp BACKSPACE  &kp LG(LS(Z))  &kp LG(LS(S))  &kp UNDERSCORE  &kp EQUAL  &kp PAGE_DOWN            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT              &kp DOWN            &kp RIGHT      &trans    &kp PIPE       &trans
+&trans         &kp LG(Z)      &kp LG(X)      &kp LG(C)       &kp LG(V)  &kp LG(LA(V))  &trans                    &mmv MOVE_DOWN                   &kp LC(LEFT)          &kp LS(DOWN_ARROW)  &kp LC(RIGHT)  &trans    &kp BACKSLASH  &trans
+                                             &trans          &trans     &trans                                                                    &mt LEFT_SHIFT SPACE  &trans              &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
